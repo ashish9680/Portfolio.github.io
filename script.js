@@ -35,15 +35,6 @@ function newQuote() {
     document.getElementById('quote').innerHTML = quotes[randomNo];
 }
 
-<script>
-        // Simple client-side counter
-        document.addEventListener('DOMContentLoaded', function() {
-            let count = localStorage.getItem('pageViewCount') || 0;
-            count++;
-            localStorage.setItem('pageViewCount', count);
-            document.getElementById('counter').innerText = count;
-        });
-</script>
 
 
     
